@@ -1,0 +1,42 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "db",
+    "server",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://3XGq6fYJNxb9ovm.a8430010dcce:NEwPN208JNdwL20jEc3R@gateway05.us-east-1.prod.aws.tidbcloud.com:4000/TfRYvtRLjvyNRTbLtZFENi?ssl={\"rejectUnauthorized\":true}",
+    "DRIZZLE_DATABASE_URL": "mysql://3XGq6fYJNxb9ovm.a8430010dcce:NEwPN208JNdwL20jEc3R@gateway05.us-east-1.prod.aws.tidbcloud.com:4000/TfRYvtRLjvyNRTbLtZFENi?ssl={\"rejectUnauthorized\":true}",
+    "MANUS_WEBDEV_PROJECT_ID": "TfRYvtRLjvyNRTbLtZFENi"
+  },
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/TfRYvtRLjvyNRTbLtZFENi.git",
+    "expiration": "2026-09-08T12:09:37.391Z",
+    "token": "art_v2_x_06783b93b34fc681ba06bd922848875344063925?expires=1788869377",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "checklist-operacional",
+  "path": "/home/ubuntu/checklist-operacional",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "Cco3AusyPA6E2u8GCmWFKJ",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "MBnVHYbdjp5EdnLdsjWuei",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Joaldo Braga",
+    "OWNER_OPEN_ID": "VWRwftx2TdWoeNrM9SPRhv",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "5a5ac222-9194-4ec1-aaf8-e4f34e693808",
+    "VITE_APP_ID": "TfRYvtRLjvyNRTbLtZFENi",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310519663911038804/xnypGPWupqIjofNd.png",
+    "VITE_APP_TITLE": "Checklist Operacional",
+    "VITE_FRONTEND_FORGE_API_KEY": "YZp5nNrczP9R9HQ6Ts57GV",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
